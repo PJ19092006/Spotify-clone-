@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+    <main>
+        <div class="sidebar">
+            <div class="up">
+                <div id="home">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">home</a>
+                </div>
+                <div id="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">search</a>
+                </div>
+            </div>
+            <div class="down">
+                <div class="down-nav">
+                    <div id="library">
+                        <img src="library_icon.png" alt="">
+                        <p>Your Library</p>
+                    </div>
+                    <div id="icon">
+                        <i class="fa-solid fa-plus plus"></i>
+                        <i class="fa-solid fa-arrow-right right"></i>
+                    </div>
+                </div>
+                <div class="messages">
+                    <div class="message">
+                        <b style="background-color: #1c1c1c">Create your first playlist</b>
+                        <p style="background-color: #1c1c1c">It's easy, we'll help you</p>
+                        <button>Create playlist</button>
+                    </div>
+                    <div class="message">
+                        <b style="background-color: #1c1c1c">Let's find some podcasts to follow</b>
+                        <p style="background-color: #1c1c1c">We'll keep you updated on new episodes</p>
+                        <button>Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main-nav">
+                <div class="main-nav-left">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <div class="main-nav-right">
+                    <button>Upgrade</button>
+                    <button>Intsall app</button>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+            <div class="cards">
+                <h3>Recently played</h3>
+                <div class="section">
+                    <div class="card">
+                        <img src="card1img.jpeg" alt="" style="width: 200px;">
+                        <b>Top 50- Global</b>
+                        <p>Your daily update of the most played trackes</p>
+                    </div>
+                </div>
+                <h3>Spotify exclusve</h3>
+                <div class="section">
+                    <div class="card">
+                        <img src="card2img.jpeg" alt="">
+                        <b>Top 50- Global</b>
+                        <p>Your daily update of the most played trackes</p>
+                    </div>
+                    <div class="card">
+                        <img src="card3img.jpeg" alt="">
+                        <b>Top 50- Global</b>
+                        <p>Your daily update of the most played trackes</p>
+                    </div>
+                    <div class="card">
+                        <img src="card4img.jpeg" alt="">
+                        <b>Top 50- Global</b>
+                        <p>Your daily update of the most played trackes</p>
+                    </div>
+                    <div class="card">
+                        <img src="card5img.jpeg" alt="">
+                        <b>Top 50- Global</b>
+                        <p>Your daily update of the most played trackes</p>
+                    </div>
+                </div>
+                <h3>Latest trackes</h3>
+                <div class="section">
+                    <div class="card">
+                        <img src="card6img.jpeg" alt="">
+                        <b>Top 50- Global</b>
+                        <p>Your daily update of the most played trackes</p>
+                    </div>
+                    <div class="card">
+                        <img src="card1img.jpeg" alt="">
+                        <b>Top 50- Global</b>
+                        <p>Your daily update of the most played trackes</p>
+                    </div>
+                    <div class="card">
+                        <img src="card2img.jpeg" alt="">
+                        <b>Top 50- Global</b>
+                        <p>Your daily update of the most played trackes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="playbar">
+        <div class="playbar-left">
+            <img src="card2img.jpeg" alt="" style="width: 60px;">
+            <div class="playbar-left-text">
+                <b>Mahiye Jinna Sohna</b>
+                <p>Darshan Raval</p>
+            </div>
+            <i class="fa-regular fa-heart"></i>
+        </div>
+        <div class="playbar-center">
+            <div class="control">
+                <img src="player_icon1.png" alt="">
+                <img src="player_icon2.png" alt="">
+                <img src="player_icon3.png" alt="" id="play">
+                <img src="player_icon4.png" alt="">
+                <img src="player_icon5.png" alt="">
+            </div>
+            <div class="progress">
+                <span class="curr-time">00:00</span>
+                <input type="range" min="0" max="100" class="progress-bar">
+                <span class="tot-time">3:30</span>
+            </div>
+        </div>
+        <div class="playbar-right">
+            <i class="fa-solid fa-volume-high"></i>
+             <input type="range" min="0" max="100" class="volume">
+        </div>
+    </div>
+</body>
+</html>
+
